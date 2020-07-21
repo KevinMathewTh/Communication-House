@@ -489,7 +489,7 @@ h1, h2, h3, h4, h5, h6 {
 #about {
   background: #fff;
   padding: 80px 0;
-  padding-top:10px;
+  padding-top:75px;
 }
 
 #about .about-img {
@@ -1519,3 +1519,17 @@ h1, h2, h3, h4, h5, h6 {
         right: 9%;
     }
 } 
+#footer iframe{
+  height:250px;
+  width:450px;
+  margin-bottom:20px;
+}
+@media screen and (max-width:767px)
+{
+  #footer iframe
+  {
+    margin:10px;
+    width:auto;
+  }
+
+}
