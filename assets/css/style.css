@@ -587,6 +587,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color:#03C4EB;
   padding:10px;
   color:white;
+  width:110px;
   text-align:center;
   margin-left: auto;
   margin-right:auto;
@@ -1459,6 +1460,26 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .main-timeline .timeline:nth-child(5n+3) .title {
+  color: #03C4EB;
+}
+.main-timeline .timeline:nth-child(5n+4)::before {
+  border-color: rgb(122, 227, 248);
+}
+
+.main-timeline .timeline:nth-child(5n+4)::after {
+  border-color: #03C4EB;
+}
+
+.main-timeline .timeline:nth-child(5n+4) .timeline-icon
+{
+  color: #03C4EB;
+}
+
+.main-timeline .timeline:nth-child(5n+4) .timeline-year {
+  color: #03C4EB;
+}
+
+.main-timeline .timeline:nth-child(5n+4) .title {
   color: #03C4EB;
 }
 
