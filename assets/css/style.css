@@ -643,6 +643,22 @@ h1, h2, h3, h4, h5, h6 {
   background: #03C4EB;
   border: 2px solid #03C4EB;
 }
+#subscribe p{
+  text-align: center;
+  font-size:1.563rem;
+  color:white;
+  font-weight: bold;
+}
+#subscribe i{
+  /* background-color: white; */
+  color: white;
+  display: flex;
+  display: flex;
+  justify-content: center;
+  padding-bottom:20px;
+  
+  
+}
 
 /* Portfolio Section
 --------------------------------*/
