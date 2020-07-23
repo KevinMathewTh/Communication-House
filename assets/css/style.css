@@ -96,6 +96,7 @@ h1, h2, h3, h4, h5, h6 {
 .cta{
   position:fixed;
   z-index: 3;
+  display: none;
   top:50%;
   background-color:rgb(0, 135, 162);
   width:35px;
