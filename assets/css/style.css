@@ -46,14 +46,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Pacifico', cursive;
 }
 
-.cta{
-  width:150px;
-  height:150px;
-  border-radius:20%;
-  position:fixed;
-  background-color: green;
-  z-index: 3px;
-}
+
 /* Prelaoder */
 #preloader {
   position: fixed;
@@ -99,6 +92,40 @@ h1, h2, h3, h4, h5, h6 {
   background: #03C4EB;
   color: #fff;
 }
+
+.cta{
+  position:fixed;
+  z-index: 3;
+  top:50%;
+  background-color:rgb(0, 135, 162);
+  width:35px;
+  height:140px; 
+  margin: 0px;
+  /* padding-top:20px; */
+  padding-left:3px; 
+  /* float: left;
+  display: flex; */
+  -webkit-box-shadow: 14px 10px 12px -9px rgba(0,0,0,0.59);
+  -moz-box-shadow: 14px 10px 12px -9px rgba(0,0,0,0.59);
+  box-shadow: 14px 10px 12px -9px rgba(0,0,0,0.59);
+
+  
+
+}
+
+.cta p{
+  writing-mode:tb-rl;
+  -webkit-transform:rotate(180deg);
+  -moz-transform:rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform:rotate(180deg);
+  transform: rotate(180deg);
+  color:white;
+  font-weight: bold;
+  font-size:17px;
+  margin-top:20px;
+}
+
 
 /*--------------------------------------------------------------
 # Welcome
