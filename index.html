@@ -744,11 +744,14 @@
       document.getElementById("ctamain").removeAttribute("data-target");
       // document.getElementById("cta-link").innerHTML("Call Us Now");
       // document.getElementById("cta-link").setAttribute("href","tel:9045255555");
-      document.getElementById('cta-link').innerHTML="Call Us Now";
+      // document.getElementById('cta-link').innerHTML="Call Us Now";
 		} else {
 			// element.style.backgroundColor = "red";
 		}
-    $(document).scroll(function() {
+    
+	</script>
+<script>
+  $(document).scroll(function() {
   var y = $(this).scrollTop();
   if (y > 650) {
     $('.cta').fadeIn();
@@ -756,8 +759,7 @@
     $('.cta').fadeOut();
   }
 });
-	</script>
-
+</script>
 </body>
 
 </html>
