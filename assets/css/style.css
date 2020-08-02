@@ -1615,3 +1615,66 @@ h1, h2, h3, h4, h5, h6 {
   }
 
 }
+/* Plans */
+
+.horizontal-navigation {
+  background-color: #fff;
+  border-bottom: 1px solid #e4e4e4;
+  text-align: center;
+  -webkit-animation: fadeIn .8s;
+  animation: fadeIn .8s;
+
+
+}
+.horizontal-navigation li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+a {
+  color: #3b444f;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: .3s color ease-in;       
+  padding: 20px 0;
+
+  
+}
+
+
+.scroll {
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar; 
+}
+
+/* hide the scrollbar if on webkit desktop device, this is optional */
+
+::-webkit-scrollbar { 
+  display: none; 
+}
+
+/* make keyframes that tell the start state and the end state of our object */
+
+.inner-page .jumbotron{
+  margin-top:50px;
+  margin-left:50px;
+  margin-right:50px;
+}
+.none-display{
+  display: none;
+}
+.tata-img img{
+  margin-top:10%;
+}
+/* End Section */
+.end-section{
+  width:450px;
+  margin-bottom:100px;
+}
+
