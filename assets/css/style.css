@@ -1633,6 +1633,14 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   left: -10px;
 }
+.lastsec{
+  text-align: center;
+  margin-top:50px;
+  margin-bottom: 50px;
+}
+.lastsec .end-head{
+  margin-top:20px;
+}
 #tataskyoffer .card{
   -webkit-box-shadow: 10px 10px 48px -11px rgba(0,0,0,0.75);
 -moz-box-shadow: 10px 10px 48px -11px rgba(0,0,0,0.75);
