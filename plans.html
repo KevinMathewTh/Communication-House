@@ -120,9 +120,14 @@
             <h2>We provide Tata Sky <span class="typed" data-typed-items="Connections, Recharges, Services, Repairs"></span></h2>
             <div class="actions">
               <p class="lead">
+                <form>
                 <input class="inputbox" type="text" placeholder="Name">
                 <input class="inputbox" type="phone" placeholder="+91 123 456 78 90">
-                <a class="btn btn-primary btn-lg" href="#" role="button">GET VOUCHER</a>
+                <!-- Button trigger modal -->
+                <button onclick="randomVoucher()" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                 GET VOUCHER
+                </button>
+              </form>
               </p>
     
             </div>
@@ -153,6 +158,28 @@
 
 </div>
 
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Congratulations!</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Redeem your discount voucher using</p>
+          <h4 id="voucher-code">TATASKY100</h4>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
 
@@ -168,7 +195,12 @@
       <div class="jumbotron">
         <div class="row">
           <div class="col-lg tata-img">
-            <img class="img-fluid" src="assets\img\Tata\SetUp\1.png"\>
+            <div class="row">
+                <img class="img-fluid" src="assets\img\Tata\SetUp\1.png"\>
+                <img class="img-fluid" style="width:95%; position: relative;  top:-50px;" src="assets\img\Tata\SetUp\1price.png"\>
+            </div>
+           
+            
           </div>
           <div class="col-lg">
               <h1 class="display-4">Tata Sky Binge+</h1>
@@ -181,7 +213,7 @@
                  <li> 3. Chromecast & much more.</li> 
                <br>
               <p class="lead">
-                <a class="btn btn-primary btn-lg" href="#" role="button">BUY NOW</a>
+                <a class="btn btn-primary btn-lg" href="tel:9045255555" role="button">BUY NOW</a>
               </p>
             </div>
         </div>
@@ -189,7 +221,12 @@
       <div class="jumbotron">
           <div class="row">
             <div class="col-lg">
+              <div class="row">
                 <img class="img-fluid" src="assets\img\Tata\SetUp\2.png"\>
+              </div>
+              <div class="row">
+                <h2 style="margin-left:auto;margin-right:auto;"><span style="font-weight:bold;">Only</span> ₹1499</h2>
+              </div>
             </div>
             <div class="col-lg">
                 <h1 class="display-4">Tata Sky HD</h1>
@@ -200,16 +237,21 @@
                 <li>+ Installation</li>
                 <br>
                 <p class="lead">
-                  <a class="btn btn-primary btn-lg" href="#" role="button">BUY NOW</a>
+                  <a class="btn btn-primary btn-lg" href="tel:9045255555" role="button">BUY NOW</a>
                 </p>
               </div>
           </div>
         </div>
         <div class="jumbotron">
             <div class="row">
-              <div class="col-lg">
-                  <img class="img-fluid" src="assets\img\Tata\SetUp\3.png"\>
-              </div>
+                <div class="col-lg">
+                    <div class="row">
+                      <img class="img-fluid" src="assets\img\Tata\SetUp\3.png"\>
+                    </div>
+                    <div class="row">
+                      <h2 style="margin-left:auto;margin-right:auto;"><span style="font-weight:bold;">Only</span> ₹4999</h2>
+                    </div>
+                  </div>
               <div class="col-lg">
                   <h1 class="display-4">Tata Sky +</h1>
                   <p class="lead">High-definition viewing with simultaneous recording</p>
@@ -219,16 +261,21 @@
                   <li>+ Installation</li>
                   <br>
                   <p class="lead">
-                    <a class="btn btn-primary btn-lg" href="#" role="button">BUY NOW</a>
+                    <a class="btn btn-primary btn-lg" href="tel:9045255555" role="button">BUY NOW</a>
                   </p>
                 </div>
             </div>
           </div>
           <div class="jumbotron">
               <div class="row">
-                <div class="col-lg">
-                    <img class="img-fluid" src="assets\img\Tata\SetUp\4.png"\>
-                </div>
+                  <div class="col-lg">
+                      <div class="row">
+                        <img class="img-fluid" src="assets\img\Tata\SetUp\4.png"\>
+                      </div>
+                      <div class="row">
+                        <h2 style="margin-left:auto;margin-right:auto;"><span style="font-weight:bold;">Only</span> ₹1499</h2>
+                      </div>
+                    </div>
                 <div class="col-lg">
                     <h1 class="display-4">Tata Sky</h1>
                     <p class="lead">Enjoy the best of entertainment</p>
@@ -237,127 +284,132 @@
                     <li>+ Dish</li>
                     <li>+ Installation</li>
                     <p class="lead">
-                      <a class="btn btn-primary btn-lg" href="#" role="button">BUY NOW</a>
+                      <a class="btn btn-primary btn-lg" href="tel:9045255555" role="button">BUY NOW</a>
                     </p>
                   </div>
               </div>
             </div>
           </div>
     <div id="tataskyoffer" class="container Offers d-none">
-        
         <div class="jumbotron">
           <div class="row d-flex justify-content-center">
-              <h1 class="display-4">tATA SKY REGIONAL PACKS</h1>
+              <h1 class="display-4">Tata Sky Broadcaster Packs</h1>
           </div>  
-          <div class="row d-flex justify-content-around">
+          <div style="margin-top:30px;" class="row d-flex justify-content-around">
               <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="assets\img\Tata\logo\3.png" alt="Card image cap">
                   <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <h5 class="card-title">ZEE Packs</h5>
+                    <ul><i class="fa fa-check" aria-hidden="true"></i>Zee Prime English</ul>
+                    <ul><i class="fa fa-check" aria-hidden="true"></i>Zee Family Marathi HD</ul>
+                    <ul><i class="fa fa-check" aria-hidden="true"></i>Zee All-in-One Bangla HD</ul>
+                    <ul><span style=" color:#03C4EB;"><i class="fa fa-plus" aria-hidden="true"></i>More</span></ul>
                     
                   </div>
                 </div>
                 <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="assets\img\Tata\logo\2.png" alt="Card image cap">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <h5 class="card-title">Star Packs</h5>
+                      <ul><i class="fa fa-check" aria-hidden="true"></i>Star Bengali Value B</ul>
+                      <ul><i class="fa fa-check" aria-hidden="true"></i>Star Hindi Tamil Value B</ul>
+                      <ul><i class="fa fa-check" aria-hidden="true"></i>Star Marathi Kannada Premium A</ul>
+                      <ul><span style=" color:#03C4EB;"><i class="fa fa-plus" aria-hidden="true"></i>More</span></ul>
+                      
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                      <img class="card-img-top" src="assets\img\Tata\logo\27.png" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">DiscoveryPacks</h5>
+                        <ul><i class="fa fa-check" aria-hidden="true"></i>Discovery Basic Infotainmen</ul>
+                        <ul><i class="fa fa-check" aria-hidden="true"></i>Discovery Infotainment and Sports Tamil</ul>
+                        <ul><i class="fa fa-check" aria-hidden="true"></i>Discovery Kids Infotainment</ul>
+                        <ul><span style=" color:#03C4EB;"><i class="fa fa-plus" aria-hidden="true"></i>More</span></ul>
+                        
+                      </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="assets\img\Tata\logo\8.png" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Sun Packs</h5>
+                          <ul><i class="fa fa-check" aria-hidden="true"></i>Sun Kannada Basic HD</ul>
+                          <ul><i class="fa fa-check" aria-hidden="true"></i>Sun Ultimate</ul>
+                          <ul><i class="fa fa-check" aria-hidden="true"></i>Sun Ultimate HD</ul>
+                          <ul><span style=" color:#03C4EB;"><i class="fa fa-plus" aria-hidden="true"></i>More</span></ul>
+                          
+                        </div>
+                      </div>
+                      <div class="card" style="width: 18rem;">
+                          <img class="card-img-top" src="assets\img\Tata\logo\35.png" alt="Card image cap">
+                          <div class="card-body">
+                            <h5 class="card-title">Disney Packs</h5>
+                            <ul><i class="fa fa-check" aria-hidden="true"></i>Disney HD</ul>
+                            <ul><i class="fa fa-check" aria-hidden="true"></i>Disney Hindi Ent</ul>
+                            <ul><i class="fa fa-check" aria-hidden="true"></i>Disney Kids</ul>
+                            <ul><span style=" color:#03C4EB;"><i class="fa fa-plus" aria-hidden="true"></i>More</span></ul>
+                            
+                          </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="assets\img\Tata\logo\3.png" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title">Times Packs</h5>
+                              <ul><i class="fa fa-check" aria-hidden="true"></i>Times Bouquet 2</ul>
+                              <ul><i class="fa fa-check" aria-hidden="true"></i>Times Bouquet 3 HD</ul>
+                              <ul><i class="fa fa-check" aria-hidden="true"></i>Times Bouquet 1</ul>
+                              <ul><span style=" color:#03C4EB;"><i class="fa fa-plus" aria-hidden="true"></i>More</span></ul>
+                              
+                            </div>
+                          </div>
+          
+        </div>
+          <div class="row d-flex justify-content-center" style="margin-top:20px;">
+              <a class="btn btn-primary btn-lg" href="tel:9045255555" role="button">BUY NOW</a>
+          </div>        
+         </div>
+        <div class="jumbotron">
+          <div class="row d-flex justify-content-center">
+              <h1 class="display-4">Tata Sky Regional Packs</h1>
+          </div>  
+          <div style="margin-top:30px;" class="row d-flex justify-content-around">
+              <div class="card" style="width: 18rem;">
+                  <div class="card-body">
+                    <h5 class="card-title" style="text-align:center;">FTA Malayalam Regional</h5>
+                    <p style="font-size:30px; text-align: center;">₹ 0.00/month</p>
+                    <ul><i class="fa fa-check" aria-hidden="true"></i>Best Of Entertainment, News, Spiritual</ul>
+                    <ul><i class="fa fa-check" aria-hidden="true"></i>SD Channel Count 15</ul>
+                  </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title" style="text-align:center;">Marathi Regional Mini HD</h5>
+                      <p style="font-size:30px; text-align: center;">₹ 60.41/month</p>
+                      <ul><i class="fa fa-check" aria-hidden="true"></i>Best Of Entertainment, News</ul>
+                      <ul><i class="fa fa-check" aria-hidden="true"></i>HD Channel Count 3</ul>
+                      <ul><i class="fa fa-check" aria-hidden="true"></i>SD Channel Count 2</ul>
                       
                     </div>
                   </div>
                   <div class="card" style="width: 18rem;">
                       <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h5 class="card-title" style="text-align:center;">Bengali Regional</h5>
+                        <p style="font-size:30px; text-align: center;">₹ 67.49/month</p>
+                        <ul><i class="fa fa-check" aria-hidden="true"></i>Best Of Entertainment, Movies, News</ul>
+                        <ul><i class="fa fa-check" aria-hidden="true"></i>SD Channel Count 8</ul>
                         
                       </div>
           </div>
+          
         </div>
           <div class="row d-flex justify-content-center" style="margin-top:20px;">
-              <a class="btn btn-primary btn-lg" href="#" role="button">BUY NOW</a>
+              <a class="btn btn-primary btn-lg" href="tel:9045255555" role="button">BUY NOW</a>
           </div>
          
                   
                   </div>
-                  <div class="jumbotron">
-                      <div class="row d-flex justify-content-center">
-                          <h1 class="display-4">Curated Bundles</h1>
-                      </div>  
-                      <div class="row d-flex justify-content-around">
-                          <div class="card" style="width: 18rem;">
-                              <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                
-                              </div>
-                            </div>
-                            <div class="card" style="width: 18rem;">
-                                <div class="card-body">
-                                  <h5 class="card-title">Card title</h5>
-                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                  
-                                </div>
-                              </div>
-                              <div class="card" style="width: 18rem;">
-                                  <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    
-                                  </div>
-                      </div>
-                    </div>
-                      <div class="row d-flex justify-content-center" style="margin-top:20px;">
-                          <a class="btn btn-primary btn-lg" href="#" role="button">BUY NOW</a>
-                      </div>
-                     
-                              
-                              </div>
-                              <div class="jumbotron">
-                                  <div class="row d-flex justify-content-center">
-                                      <h1 class="display-4">Curated Bundles</h1>
-                                  </div>  
-                                  <div class="row d-flex justify-content-around">
-                                      <div class="card" style="width: 18rem;">
-                                          <div class="card-body">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                            
-                                          </div>
-                                        </div>
-                                        <div class="card" style="width: 18rem;">
-                                            <div class="card-body">
-                                              <h5 class="card-title">Card title</h5>
-                                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                              
-                                            </div>
-                                          </div>
-                                          <div class="card" style="width: 18rem;">
-                                              <div class="card-body">
-                                                <h5 class="card-title">Card title</h5>
-                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                                
-                                              </div>
-                                  </div>
-                                </div>
-                                  <div class="row d-flex justify-content-center" style="margin-top:20px;">
-                                      <a class="btn btn-primary btn-lg" href="#" role="button">BUY NOW</a>
-                                  </div>
-                                 
-                                          
-                                          </div>
-                                         
-                                          
-                                          
-                            </div>
-                             
-                              
-
                 </div>
-                 
-                  
-                  
-    </div>
-    
-  </div>
+                
   
     <div  class="d-flex justify-content-center ">
       <div id="channel" class="channel d-none" >
@@ -419,7 +471,7 @@
               <p class="lead">Watch the latest Hollywood blockbuster movies on your TV from the comfort of your home</p>
               <hr class="my-4">
               <p class="lead">
-                <a class="btn btn-primary btn-lg" href="#" role="button">BUY NOW</a>
+                <a class="btn btn-primary btn-lg" href="tel:9045255555" role="button">BUY NOW</a>
               </p>
           </div>
         </div>
@@ -436,7 +488,7 @@
               <hr class="my-4">
               <p>Get it Now for only Rs 59 per month</p>
               <p class="lead">
-                <a class="btn btn-primary btn-lg" href="#" role="button">BUY NOW</a>
+                <a class="btn btn-primary btn-lg" href="tel:9045255555" role="button">BUY NOW</a>
               </p>
           </div>
         </div>
@@ -454,7 +506,7 @@
               <hr class="my-4">
               <p>Get it Now for only Rs 30 per month</p>
               <p class="lead">
-                <a class="btn btn-primary btn-lg" href="#" role="button">BUY NOW</a>
+                <a class="btn btn-primary btn-lg" href="tel:9045255555" role="button">BUY NOW</a>
               </p>
           </div>
         </div>
@@ -471,7 +523,7 @@
               <hr class="my-4">
               <p>Get it Now for only Rs 75 per month</p>
               <p class="lead">
-                <a class="btn btn-primary btn-lg" href="#" role="button">BUY NOW</a>
+                <a class="btn btn-primary btn-lg" href="tel:9045255555" role="button">BUY NOW</a>
               </p>
           </div>
         </div>
@@ -489,21 +541,27 @@
                 <hr class="my-4">
                 <p>Get it Now for only Rs 60 per month</p>
                 <p class="lead">
-                  <a class="btn btn-primary btn-lg" href="#" role="button">BUY NOW</a>
+                  <a class="btn btn-primary btn-lg" href="tel:9045255555" role="button">BUY NOW</a>
                 </p>
               </div>
           </div>
         </div>
       </div>
-      <div class="img-box">
-        <img class="img-fluid mx-auto d-block" style="width:500px;" src="assets\img\Tata\entertainment.png"/>
-      </div>
+      
 
-    <div class="end-section container d-flex flex-column justify-content-center">
-        
-      <h1 class="end-head">Non Stop Entertainment in HD</h1>
+    <div class="lastsec container">
+      <div class="row justify-content-md-center " style="">
+        <div class="col-lg">
+          <img class="img-fluid" style="width:500px;" src="assets\img\Tata\entertainment.png"/>
+        </div>
+        <div class="col-lg" style=" margin-top:auto; margin-bottom: auto;">
+          <h1 class="end-head">Non Stop Entertainment in HD</h1>
       <p class="end-lead">Enjoy your favourite channels in different languages with our packages</p>
-      <a class="btn btn-primary btn-lg" href="#" role="button">BUY NOW</a>
+      <a class="btn btn-primary btn-lg" href="tel:9045255555" role="button">GET NOW</a>
+        </div>
+      </div>
+        
+      
     </div>
     </section>
 
@@ -591,6 +649,19 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
   <script>
+    function randomVoucher() {
+      var x=Math.random();
+      if(x>0.8){
+        document.getElementById("voucher-code").innerHTML = "TATASKY200";
+        
+      }
+      else{
+        document.getElementById("voucher-code").innerHTML = "TATASKY100";
+        
+      }
+  
+}
+
      $(window).scroll(function() {
    if ($(document).scrollTop() > 500 && $("#myModal").attr("displayed") === "false") {
      $('#myModal').modal('show');
