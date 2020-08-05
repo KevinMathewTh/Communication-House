@@ -1628,6 +1628,24 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 /* Plans */
+#exampleModal {
+  text-align: center;
+}
+
+#exampleModal .title{
+  margin-left:auto;
+  font-weight:bold;
+}
+#voucher-code{
+  font-weight: bold;
+  color:#03C4EB;
+  position: relative;
+  top:-20px;
+}
+.modal-footer button{
+  margin-right:auto;
+  margin-left:auto;
+}
 #tataskyoffer i{
   color:#03C4EB;
   position: relative;
