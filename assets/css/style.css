@@ -1758,6 +1758,9 @@ a {
 }
 @media screen and (max-width:767px)
 {
+  .actions button{
+    margin-top:20px;
+  }
   .channel{
     margin-left:10%;
   }
