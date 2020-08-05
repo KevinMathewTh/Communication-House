@@ -1616,6 +1616,23 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 /* Plans */
+#myModal {
+  display: none;
+}
+.channel{
+  
+  margin-left:2%;
+  margin-right:2%;
+  margin-bottom: 15px;;
+  
+}
+.channel img{
+  width:100px;
+  margin:20px;
+}
+/* .channel img:hover{
+  width:150px;
+} */
 
 .horizontal-navigation {
   background-color: #fff;
@@ -1679,7 +1696,7 @@ a {
 }
 .inputbox{
   margin:5px;
-  
+  padding:10px;
 }
 .Offers .card{
   margin-bottom:20px;
@@ -1693,6 +1710,15 @@ a {
 }
 @media screen and (max-width:767px)
 {
+  .channel{
+    margin-left:10%;
+  }
+.channel img{
+  width: 60px;
+}
+/* .channel img:hover{
+  width:90px;
+} */
 .inner-page-top .container{
   margin:0px;
   width:500px;
