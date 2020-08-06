@@ -40,11 +40,12 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 0 20px 0;
   padding: 0;
 }
-.hero-logo p{
+.hero-logo-tag{
   color:white;
   font-size: 5.2rem;
-  font-family: 'Pacifico', cursive;
+  font-family: 'Rowdies', cursive;
 }
+
 
 
 /* Prelaoder */
@@ -1628,6 +1629,45 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 /* Plans */
+.header-input{
+  margin-left:auto;
+  margin-right:auto;
+  width:400px;
+}
+
+.circle{
+  width: 20px;
+  height:20px;
+  background-color: rgb(144, 231, 248);
+  margin:6px;
+  border-radius:50%;
+}
+
+.price-img-bottom{
+  display: none;
+}
+@media screen and (max-width:990px)
+{
+  .price-img-top{
+    display: none;
+  }
+  .price-img-bottom{
+    display: flex;
+  }
+
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: white;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: white;
+}
 #exampleModal {
   text-align: center;
 }
@@ -1745,6 +1785,9 @@ a {
 .inputbox{
   margin:5px;
   padding:10px;
+  background:transparent;
+  border:2px solid white;
+  color:white;
 }
 .Offers .card{
   margin-bottom:20px;
@@ -1788,6 +1831,9 @@ a {
  .inputbox{
    width:80%;
    font-size:17px;
+   margin-left:auto;
+   margin-right:auto;
+   
  }
 
  .Set-Up-Box .jumbotron
@@ -1822,4 +1868,31 @@ a {
 }
 
 
+}
+/* Testomonial */
+#carouselExampleIndicators{
+  
+  -webkit-box-shadow: 10px 10px 48px -11px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 48px -11px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 48px -11px rgba(0,0,0,0.75);
+}
+.carousel-control-next{
+  color:#03C4EB;
+}
+.Testimonials{
+  margin-top:100px;
+  margin-bottom:100px;
+  margin-left:5%;
+  margin-right:5%;
+  text-align: center;
+}
+.carousel-item{
+  padding: 30px;
+  padding-left:50px;
+  padding-right:50px;
+}
+.Testimonials .card-img-top{
+  border-radius:50%;
+  width:75px;
+  height:75px;
 }
