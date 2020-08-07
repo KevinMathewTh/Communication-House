@@ -169,7 +169,7 @@
           <p>Call Us Now To avail to Offer</p>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-primary">Call Now</button>
+          <a href="tel:9045255555" type="button" class="btn btn-primary">Call Now</a>
         </div>
       </div>
 
@@ -742,21 +742,24 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
   <script>
+    var uservar=0;
     function randomVoucher() {
       var x=Math.random();
       if(x>0.8){
         document.getElementById("voucher-code").innerHTML = "TATASKY200";
+        uservar=1;
         
       }
       else{
         document.getElementById("voucher-code").innerHTML = "TATASKY100";
+        uservar=1;
         
       }
   
 }
 
      $(window).scroll(function() {
-   if ($(document).scrollTop() > 500 && $("#myModal").attr("displayed") === "false") {
+   if ($(document).scrollTop() > 500 && $("#myModal").attr("displayed") === "false" && uservar==1) {
      $('#myModal').modal('show');
      $("#myModal").attr("displayed", "true");
    }
