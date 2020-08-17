@@ -28,7 +28,13 @@ a:hover, a:active, a:focus {
   outline: none;
   text-decoration: none;
 }
-
+.active-subnav{
+  color: #03c5ec;
+  padding: 5px;
+  outline: none;
+  text-decoration: none;
+  border-top:2px solid #03c5ec;
+}
 p {
   padding: 0;
   margin: 0 0 30px 0;
@@ -291,10 +297,12 @@ h1, h2, h3, h4, h5, h6 {
 # Navigation Menu
 --------------------------------------------------------------*/
 /* Desktop Navigation */
+
 .nav-menu ul {
   margin: 0;
   padding: 0;
   list-style: none;
+
 }
 
 .nav-menu > ul {
@@ -1711,9 +1719,19 @@ box-shadow: 10px 10px 48px -11px rgba(0,0,0,0.75);
   
   margin-left:2%;
   margin-right:2%;
-  margin-bottom: 15px;;
+  margin-bottom: 15px;
+
   
 }
+.channels-pdf{
+  margin-left:auto;
+  margin-right:auto;
+  height:50px;
+  width:200px;
+  background-color:#03C4EB;
+  margin-bottom: 30px;
+}
+
 .channel img{
   width:100px;
   margin:20px;
@@ -1721,10 +1739,12 @@ box-shadow: 10px 10px 48px -11px rgba(0,0,0,0.75);
 /* .channel img:hover{
   width:150px;
 } */
-
+#more{
+  display: none;
+}
 .horizontal-navigation {
   background-color: #fff;
-  border-bottom: 1px solid #e4e4e4;
+  border-bottom:1px solid #e4e4e4;
   text-align: center;
   -webkit-animation: fadeIn .8s;
   animation: fadeIn .8s;
@@ -1801,6 +1821,7 @@ a {
 }
 @media screen and (max-width:767px)
 {
+  
   .actions button{
     margin-top:20px;
   }
@@ -1835,6 +1856,7 @@ a {
    margin-right:auto;
    
  }
+
 
  .Set-Up-Box .jumbotron
 {
@@ -1895,4 +1917,18 @@ a {
   border-radius:50%;
   width:75px;
   height:75px;
+}
+
+.price-img-top-1499
+{
+  height:40px;
+}
+ .Testimonials .card-text{
+   width:70%;
+   margin-left:auto;
+   margin-right:auto;
+ }
+#videoModal{
+  margin-top:auto;
+  margin-bottom:auto;
 }
