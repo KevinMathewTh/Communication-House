@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -128,14 +129,17 @@
       <section id="hero">
         <div class="hero-container">
           <div class="wow fadeIn">
-              <div style="line-height:0.9; " class="hero-logo">
-                  <p class="hero-logo-tag">Entertainment at your fingertips</p>
-                  <!-- <p class="hero-logo-plan"> - communication house</p> -->
-                  <!-- <img class="" src="assets/img/logo.png" alt="Imperial"> -->
-                </div>
-        
-                <!-- <h1>Welcome to Communication House</h1> -->
-                <h2>We provide Tata Sky <span class="typed" data-typed-items="Connections,Offers, Recharges, Services, Repairs"></span></h2>
+            <div style="position: relative; top:-50px;" class="head1">
+                <div style="line-height:0.9; " class="hero-logo">
+                    <p class="hero-logo-tag">Entertainment at your fingertips</p>
+                    <!-- <p class="hero-logo-plan"> - communication house</p> -->
+                    <!-- <img class="" src="assets/img/logo.png" alt="Imperial"> -->
+                  </div>
+          
+                  <!-- <h1>Welcome to Communication House</h1> -->
+                  <h2>We provide Tata Sky <span class="typed" data-typed-items="Connections,Offers, Recharges, Services, Repairs"></span></h2>
+            </div>
+            
                 <div class="actions">
                   <p class="lead">
                     <form class="header-input d-flex flex-column">
@@ -168,6 +172,7 @@
           <p>You have won a Voucher</p>
           <h4 style="font-weight:bold; color:#03C4EB; line-height: 5px;"style="line-height: 5px;">TATASKY100</h4>
           <p>Call Us Now To avail to Offer</p>
+          
         </div>
         <div class="modal-footer">
           <a href="tel:9045255555" type="button" class="btn btn-primary">Call Now</a>
@@ -193,9 +198,10 @@
         <div class="modal-body">
           <p>Redeem your discount voucher using</p>
           <h4 id="voucher-code">TATASKY100</h4>
+          <p style="margin-top:30px; font-size:0.8rem; width:75%; margin-left:auto; margin-right:auto;">Check your email for more information!</p>
         </div>
         <div class="modal-footer">
-          
+           
         </div>
       </div>
     </div>
@@ -203,7 +209,7 @@
   <div class="container" style="margin-right:auto; margin-left:auto; margin-top:30px; margin-bottom:30px;">
     <div class="row">
       <div class="col-md">
-        <img class="img-fluid" style="width:500px; height:500px;" src="assets\img\Tata\tatasky_new_connection_offer.jpg">
+        <a href="tel:9045255555"><img class="img-fluid" style="width:500px; height:500px;" src="assets\img\Tata\tatasky_new_connection_offer.jpg"></a>
       </div>
       <div class="col-md" style="margin-top:35px; ">
         <div class="row">
@@ -642,7 +648,17 @@
            
            </div>
            <div class="download-pdf d-flex justify-content-center">
-              <a class="btn btn-primary btn-lg" href="assets\ROI.pdf" role="button">Download All Channels</a>
+             <div class="row">
+               <div class="col-sm-7">
+                <a style="" class="btn btn-primary btn-lg" href="assets\ROI.pdf" role="button">Download Channels</a>
+               </div>
+               <div class="col-sm-3">
+                <a class="margin-top-phone btn btn-primary btn-lg" href="tel:9045255555" role="button">CALL NOW</a>
+              </div>
+             
+              
+             </div>
+            
            </div>
         
       </div>
@@ -762,7 +778,7 @@
     </div>
     <div class="Testimonials">
         <h1>Testimonials</h1>
-        <p>lorem ipsuum lorem ipsuum lorem ipsuum lorem ipsuum lorem ipsuum </p>
+        <p>View some of our happy clients</p>
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -809,24 +825,17 @@
     <div id="videoModal" class="modal fade bd-example-modal-lg " tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg modal-dialog-centered">
           <div class="modal-content">
+              <div style="background-color: black; border:none;" class="modal-header">
+                 
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span style="color:white;" aria-hidden="true">&times;</span>
+                  </button>
+                </div>
               <div class="video-modal">
-                  <!-- <div class="embed-responsive embed-responsive-21by9">
-                      <iframe class="embed-responsive-item" src="assets\video\video1mp4.mp4"></iframe>
-                    </div> -->
-                    
-                    <!-- 16:9 aspect ratio -->
-                    <!-- <div class="embed-responsive embed-responsive-16by9">
-                      <iframe class="embed-responsive-item" src="..."></iframe>
-                    </div> -->
-                    
-                    <!-- 4:3 aspect ratio -->
-                    <!-- <div class="embed-responsive embed-responsive-4by3">
-                      <iframe class="embed-responsive-item" src="..."></iframe>
-                    </div> -->
-                    
-                    <!-- 1:1 aspect ratio -->
+                
                     <div class="embed-responsive embed-responsive-1by1">
-                      <iframe class="embed-responsive-item" src="assets\video\video1mp4.mp4"></iframe>
+                     
+                    <video width="500" height="345" src="assets\video\video1mp4.mp4" controls />
                     </div>
               </div>
           </div>

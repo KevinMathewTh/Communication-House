@@ -49,7 +49,7 @@ h1, h2, h3, h4, h5, h6 {
 .hero-logo-tag{
   color:white;
   font-size: 5.2rem;
-  font-family: 'Rowdies', cursive;
+  font-family: 'Pacifico', cursive;
 }
 
 
@@ -610,7 +610,10 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   font-size: 30px;
 }
-
+.rale{
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
 #services .service-item:hover .service-icon {
   background: #fff;
 }
@@ -624,6 +627,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   margin-bottom: 15px;
   text-transform: uppercase;
+  
 }
 
 #services .service-title a {
@@ -1449,6 +1453,8 @@ h1, h2, h3, h4, h5, h6 {
 .main-timeline .description {
   font-size: 16px;
   margin: 0;
+  text-transform: lowercase;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .main-timeline .timeline:nth-child(even)::before {
@@ -1821,7 +1827,9 @@ a {
 }
 @media screen and (max-width:767px)
 {
-  
+  .margin-top-phone{
+    margin-top:10px;
+  }
   .actions button{
     margin-top:20px;
   }
@@ -1927,4 +1935,5 @@ a {
    width:70%;
    margin-left:auto;
    margin-right:auto;
+   font-size:0.8rem;
  }
